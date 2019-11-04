@@ -5,7 +5,7 @@ import FAQ from './FAQ';
 import Sponsors from './Sponsors';
 
 const Container = styled.div`
-  margin-top: 6rem;
+  margin-top: 8rem;
 `;
 
 const Main = () => (
