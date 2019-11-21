@@ -1,47 +1,42 @@
-import React from 'react';
-import styled from 'styled-components';
-import ItemBtn from '../common/ItemBtn';
-import { logoSrc } from '../contents.json';
+import React from "react";
+import styled from "styled-components";
+import { logoSrc } from "../contents.json";
 
 const Nav = styled.nav`
-  position: fixed;
-  top: 0;
-  z-index: 101;
-  background-color: white;
-  width: 100%;
-  height: 6rem;
   opacity: 0.95;
-  display: flex;
-`;
-
-const LogoContainer = styled.div`
-  height: 100%;
-  width: 50%;
-`;
-
-const ItemContainer = styled.div`
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 `;
 
 const Navbar = () => (
-  <Nav>
-    <LogoContainer>
-      <a href="/">
-        <img
-          src={logoSrc}
-          alt="logo"
-        />
+  <Nav
+    className="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div className="navbar-brand">
+      <a className="navbar-item" href="/">
+        <img src={logoSrc} width="112" height="28" alt="logo" />
       </a>
-    </LogoContainer>
-    <ItemContainer>
-      <ItemBtn article="home" />
-      <ItemBtn article="FAQ" />
-      <ItemBtn article="sponsors" />
-    </ItemContainer>
+      <a
+        role="button"
+        className="navbar-burger burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="menus"
+      >
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+      </a>
+    </div>
+
+    <div id="menus" className="navbar-menu">
+      <div className="navbar-end">
+        <a className="navbar-item">Home</a>
+        <a className="navbar-item">About</a>
+        <a className="navbar-item">FaQ</a>
+        <a className="navbar-item">Sponsors</a>
+      </div>
+    </div>
   </Nav>
 );
 
