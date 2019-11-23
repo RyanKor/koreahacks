@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { logoSrc } from "../contents.json";
+import { logoSrc } from "./contents.json";
 
 const Nav = styled.nav`
   opacity: 0.95;
 `;
 
-const Navbar = () => (
+const Header = () => (
   <Nav
     className="navbar is-fixed-top"
     role="navigation"
@@ -31,13 +31,21 @@ const Navbar = () => (
 
     <div id="menus" className="navbar-menu">
       <div className="navbar-end">
-        <a className="navbar-item">Home</a>
-        <a className="navbar-item">About</a>
-        <a className="navbar-item">FaQ</a>
-        <a className="navbar-item">Sponsors</a>
+        <a className="navbar-item" href="#home">
+          Home
+        </a>
+        <a className="navbar-item" href="#about">
+          About
+        </a>
+        <a className="navbar-item" href="#faq">
+          FAQ
+        </a>
+        <a className="navbar-item" href="#sponsors">
+          Sponsors
+        </a>
       </div>
     </div>
   </Nav>
 );
 
-export default Navbar;
+export default Header;
