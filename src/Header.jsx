@@ -4,6 +4,11 @@ import { logoSrc } from "./contents.json";
 
 const Nav = styled.nav`
   opacity: 0.95;
+  padding: 0.5rem;
+
+  .navbar-end {
+    margin-right: 7%;
+  }
 `;
 
 const Header = () => (
@@ -32,16 +37,19 @@ const Header = () => (
     <div id="menus" className="navbar-menu">
       <div className="navbar-end">
         <a className="navbar-item" href="#home">
-          Home
+          HOME
         </a>
         <a className="navbar-item" href="#about">
-          About
+          ABOUT
+        </a>
+        <a className="navbar-item" href="#schedule">
+          SCHEDULE
         </a>
         <a className="navbar-item" href="#faq">
           FAQ
         </a>
         <a className="navbar-item" href="#sponsors">
-          Sponsors
+          SPONSORS
         </a>
       </div>
     </div>
