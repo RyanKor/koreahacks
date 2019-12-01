@@ -9,6 +9,9 @@ const Nav = styled.nav`
   .navbar-end {
     margin-right: 7%;
   }
+  .navbar-item:hover {
+    color: #ef4136;
+  }
 `;
 
 const Header = () => (
@@ -18,8 +21,8 @@ const Header = () => (
     aria-label="main navigation"
   >
     <div className="navbar-brand">
-      <a className="navbar-item" href="/">
-        <img src={logoSrc} width="112" height="28" alt="logo" />
+      <a className="navbar-item" href="/" style={{ marginLeft: "3rem" }}>
+        <img src={logoSrc} alt="logo" />
       </a>
       <a
         role="button"

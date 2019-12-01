@@ -8,8 +8,16 @@ const Section = styled.section`
     text-align: center;
   }
   button {
-    margin: 0 auto;
+    margin: 2rem auto;
     display: block;
+    background-color: #5a0703;
+    color: white;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: #84211c;
+      color: white;
+    }
   }
   img {
     width: 100%;
@@ -21,13 +29,13 @@ const Home = () => (
     <img className="desktop-image" src={content.desktopImg} alt="home" />
     <img className="mobile-image" src={content.mobileImg} alt="home" />
     <button
-      className="button is-danger is-light is-medium"
+      className="button is-large"
       type="button"
       onClick={() => {
         window.location.href = `${content.registerLink}`;
       }}
     >
-      접수하기
+      접수하러 가기
     </button>
   </Section>
 );

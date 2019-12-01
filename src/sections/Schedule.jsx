@@ -6,13 +6,20 @@ import ScheduleTable from "../components/ScheduleTable";
 
 const Hero = styled.section`
   border-radius: 4px;
+  background-image: linear-gradient(141deg, #5a0703 0, #84211c 100%);
+  .hero-body {
+    .subtitle {
+      color: white;
+    }
+    padding: 1em;
+  }
 `;
 
 const Schedule = () => (
   <Section id="schedule">
     <SectionTitle title="상세일정" />
     <div className="responsive-container">
-      <Hero className="hero is-dark is-bold">
+      <Hero className="hero">
         <div className="hero-body">
           <div className="container">
             <h2 className="subtitle">Day 1</h2>
@@ -23,7 +30,7 @@ const Schedule = () => (
     </div>
     <br />
     <div className="responsive-container">
-      <Hero className="hero is-dark is-bold">
+      <Hero className="hero">
         <div className="hero-body">
           <div className="container">
             <h2 className="subtitle">Day 2</h2>
