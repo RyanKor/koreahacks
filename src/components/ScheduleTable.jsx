@@ -2,7 +2,7 @@ import React from "react";
 import { schedule as content } from "../contents.json";
 
 const ScheduleTable = ({ day }) => (
-  <table className="table">
+  <table className="table" style={{ width: "100%" }}>
     <thead>
       <tr>
         <th>시간</th>
