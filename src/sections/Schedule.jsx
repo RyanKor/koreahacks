@@ -22,7 +22,7 @@ const Schedule = () => (
       <Hero className="hero">
         <div className="hero-body">
           <div className="container">
-            <h2 className="subtitle">Day 1</h2>
+            <h2 className="subtitle">2020.01.04 (Day 1)</h2>
           </div>
         </div>
       </Hero>
@@ -33,7 +33,7 @@ const Schedule = () => (
       <Hero className="hero">
         <div className="hero-body">
           <div className="container">
-            <h2 className="subtitle">Day 2</h2>
+            <h2 className="subtitle">2020.01.05 (Day 2)</h2>
           </div>
         </div>
       </Hero>

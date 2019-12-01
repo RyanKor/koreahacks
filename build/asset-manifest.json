@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/koreahacks/static/css/main.b7eb8280.chunk.css",
+    "main.js": "/koreahacks/static/js/main.470c0d53.chunk.js",
+    "main.js.map": "/koreahacks/static/js/main.470c0d53.chunk.js.map",
+    "runtime-main.js": "/koreahacks/static/js/runtime-main.abbc7b7b.js",
+    "runtime-main.js.map": "/koreahacks/static/js/runtime-main.abbc7b7b.js.map",
+    "static/js/2.05f08088.chunk.js": "/koreahacks/static/js/2.05f08088.chunk.js",
+    "static/js/2.05f08088.chunk.js.map": "/koreahacks/static/js/2.05f08088.chunk.js.map",
+    "index.html": "/koreahacks/index.html",
+    "precache-manifest.f46837e0960338e9ca46f7c19bd86f36.js": "/koreahacks/precache-manifest.f46837e0960338e9ca46f7c19bd86f36.js",
+    "service-worker.js": "/koreahacks/service-worker.js",
+    "static/css/main.b7eb8280.chunk.css.map": "/koreahacks/static/css/main.b7eb8280.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abbc7b7b.js",
+    "static/js/2.05f08088.chunk.js",
+    "static/css/main.b7eb8280.chunk.css",
+    "static/js/main.470c0d53.chunk.js"
+  ]
+}
