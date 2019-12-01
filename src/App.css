@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px) {
+  /* 데스크탑 */
+  main {
+    padding: 0 50px;
+  }
+  .desktop-image {
+    display: "";
+    border-radius: 4px;
+  }
+  .mobile-image {
+    display: none;
+  }
+  .responsive-container {
+    padding: 0 15%;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  /* 모바일 */
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: "";
+  }
+}
+@font-face {
+  font-family: "S-CoreDream-3Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  font-family: "S-CoreDream-3ExtraLight";
+}
