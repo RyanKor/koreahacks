@@ -1,6 +1,75 @@
 {
+  "logoSrc": "http://www.korea.ac.kr/mbshome/mbs/university/images/img/img_1_1_5_1_1__2.gif",
+  "applyDeadline": "2019-12-20",
   "home": {
-    "imageSrc": "/desktop-1.png"
+    "desktopImg": "/images/desktopImage.jpeg",
+    "mobileImg": "/images/mobileImage.jpeg",
+    "registerLink": "https://event-us.kr/koreahacks/event/13496"
   },
-  "logoSrc": "http://www.korea.ac.kr/mbshome/mbs/university/images/img/img_1_1_5_1_1__2.gif"
+  "about": {
+    "what": "고카톤이란?",
+    "where": "어디서?",
+    "when": "언제",
+    "who": "참여 대상",
+    "how": "지원 방법"
+  },
+  "schedule": {
+    "day1": [
+      ["09:00~10:00", "오리엔테이션", "어쩌구저쩌구"],
+      ["10:00~12:00", "개발", "협업 자유 시간 (구현범위 점검, 협업 방식 논의)"],
+      ["12:00~13:00", "점심 시간", ""],
+      ["13:00~18:00", "개발", ""],
+      ["18:00~19:00", "저녁 식사", ""],
+      ["19:00~20:00", "엘리베이셔 스피치 + 아이스브레이킹", ""],
+      ["20:00~23:00", "개발", ""],
+      ["23:00~24:00", "야식", ""]
+    ],
+    "day2": [
+      ["00:00~11:00", "개발", ""],
+      ["11:00~13:00", "시연", ""],
+      ["13:00~14:00", "투표 + 외부 기업 홍보", ""],
+      ["14:00~15:00", "마무리", ""],
+      ["15:00~17:00", "정리", ""]
+    ]
+  },
+  "faq": [
+    {
+      "q": "지원은 어디서 하나요?",
+      "a": "이벤터스에서 합니다."
+    },
+    {
+      "q": "개인이 참가할 수는 없나요?",
+      "a": "예 그렇습니다."
+    },
+    {
+      "q": "어쩌구",
+      "a": "저쩌구"
+    }
+  ],
+  "sponsors": [
+    {
+      "src": "/images/sponsors/crimson.jpeg",
+      "alt": "크림슨창업지원단"
+    },
+    {
+      "src": "/images/sponsors/d2.png",
+      "alt": "NAVER D2"
+    },
+    {
+      "src": "/images/sponsors/joinstartup.png",
+      "alt": "조인스타트업"
+    },
+    {
+      "src": "/images/sponsors/eventus.png",
+      "alt": "이벤터스"
+    },
+    {
+      "src": "/images/sponsors/jpub.png",
+      "alt": "제이펍"
+    },
+    {
+      "src": "/images/sponsors/easyspub.png",
+      "alt": "이지스 퍼블리싱"
+    }
+  ]
 }
