@@ -7,6 +7,9 @@ const Section = styled.section`
   h1 {
     text-align: center;
   }
+  .subtitle {
+    text-align: center;
+  }
   button {
     margin: 2rem auto;
     display: block;
@@ -28,6 +31,8 @@ const Home = () => (
   <Section id="home">
     <img className="desktop-image" src={content.desktopImg} alt="home" />
     <img className="mobile-image" src={content.mobileImg} alt="home" />
+    <h5 className="subtitle is-5">2020.01.04 - 2020.01.05</h5>
+    <h5 className="subtitle is-5">고려대학교 하나스퀘어</h5>
     <button
       className="button is-large"
       type="button"
