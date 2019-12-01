@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../components/Section";
 import SectionTitle from "../components/SectionTitle";
-import Message from "../components/Message";
+import Question from "../components/Question";
 import { faq as content } from "../contents.json";
 
 const color = [
@@ -18,7 +18,7 @@ const FAQ = () => (
     <SectionTitle title="자주하는 질문" />
     <div className="responsive-container">
       {content.map((question, index) => (
-        <Message title={question.q} text={question.a} color={color[index]} />
+        <Question title={question.q} text={question.a} color={color[index]} />
       ))}
     </div>
   </Section>
